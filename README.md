@@ -39,7 +39,9 @@ Segmentation fault: 11
 ```
 
 
-6. Debug using XCODE
+:(
+
+## Debug using XCODE
 - change *binding.gyp* from
 
 ```
@@ -56,6 +58,8 @@ to
 "lib/DronecodeSDK/install/lib/libdronecode_sdk_offboard.dylib",
 "lib/DronecodeSDK/install/lib/libdronecode_sdk_telemetry.dylib"
 ```
+
+- Follow (this video guide)[https://youtu.be/DND2H2-XfAc] or the below instructions:
 
 - run
 ```
