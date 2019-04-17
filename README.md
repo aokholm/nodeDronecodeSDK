@@ -21,7 +21,7 @@ npm install
 
 Start a (local PX4 simulator)[https://dev.px4.io/en/simulation/jmavsim.html] (in another terminal). For instance:
 ```
-make px4_sitl_default jmamsim
+make px4_sitl_default jmavsim
 ```
 
 5. Run
