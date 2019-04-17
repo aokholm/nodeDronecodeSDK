@@ -17,18 +17,23 @@ cd ../..
 npm install
 ```
 
-4. Run
+4. Start a simulator
 
-Start a (local PX4 simulator)[https://dev.px4.io/en/simulation/jmavsim.html] (in another terminal), for instance `make px4_sitl_default jmamsim`
+Start a (local PX4 simulator)[https://dev.px4.io/en/simulation/jmavsim.html] (in another terminal). For instance:
+```
+make px4_sitl_default jmamsim
+```
+
+5. Run
 
 ```
 node main.js
 
 ```
 
-5. Fails
+6. Fail...
 
-Output
+Output:
 
 ```
 before running[12:57:37|Info ] DronecodeSDK version: 0.15.0-18-gac0c1fde (dronecode_sdk_impl.cpp:25)
