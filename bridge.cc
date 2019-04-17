@@ -254,8 +254,6 @@ int runProgram(std::string connection_url)
     return EXIT_SUCCESS;
 }
 
-
-
 Napi::String Method(const Napi::CallbackInfo& info) {
   Napi::Env env = info.Env();
 
@@ -270,9 +268,5 @@ Napi::Object Init(Napi::Env env, Napi::Object exports) {
               Napi::Function::New(env, Method));
   return exports;
 }
-
-
-
-
 
 NODE_API_MODULE(bridge, Init)
