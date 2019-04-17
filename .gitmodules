@@ -1,0 +1,3 @@
+[submodule "lib/DronecodeSDK"]
+	path = lib/DronecodeSDK
+	url = https://github.com/Dronecode/DronecodeSDK.git
