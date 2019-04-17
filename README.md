@@ -19,7 +19,7 @@ npm install
 
 4. Start a simulator
 
-Start a (local PX4 simulator)[https://dev.px4.io/en/simulation/jmavsim.html] (in another terminal). For instance:
+Start a [local PX4 simulator](https://dev.px4.io/en/simulation/jmavsim.html) (in another terminal). For instance:
 ```
 make px4_sitl_default jmavsim
 ```
@@ -66,7 +66,7 @@ to
 "lib/DronecodeSDK/install/lib/libdronecode_sdk_telemetry.dylib"
 ```
 
-- Follow (this video guide)[https://youtu.be/DND2H2-XfAc] or the below instructions:
+- Follow [this video guide](https://youtu.be/DND2H2-XfAc) or the below instructions:
 
 - run
 ```
