@@ -9,10 +9,10 @@
       ],
       'dependencies': ["<!(node -p \"require('node-addon-api').gyp\")"],
       'libraries': [
-        "lib/DronecodeSDK/install/lib/libdronecode_sdk.a",
-        "lib/DronecodeSDK/install/lib/libdronecode_sdk_action.dylib",
-        "lib/DronecodeSDK/install/lib/libdronecode_sdk_offboard.dylib",
-        "lib/DronecodeSDK/install/lib/libdronecode_sdk_telemetry.dylib"
+        "../lib/DronecodeSDK/install/lib/libdronecode_sdk.a",
+        "../lib/DronecodeSDK/install/lib/libdronecode_sdk_action.dylib",
+        "../lib/DronecodeSDK/install/lib/libdronecode_sdk_offboard.dylib",
+        "../lib/DronecodeSDK/install/lib/libdronecode_sdk_telemetry.dylib"
       ],
       'cflags!': [ '-fno-exceptions' ],
       'cflags_cc!': [ '-fno-exceptions' ],
