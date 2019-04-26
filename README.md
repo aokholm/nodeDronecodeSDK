@@ -30,23 +30,8 @@ make px4_sitl_default jmavsim
 node main.js
 
 ```
+:)
 
-6. Fail...
-
-Output:
-
-```
-before running[12:57:37|Info ] DronecodeSDK version: 0.15.0-18-gac0c1fde (dronecode_sdk_impl.cpp:25)
-Wait for system to connect via heartbeat
-[12:57:37|Info ] New system on: 127.0.0.1:14580 (udp_connection.cpp:225)
-[12:57:37|Debug] New: System ID: 1 Comp ID: 1 (dronecode_sdk_impl.cpp:338)
-[12:57:37|Debug] Component Autopilot (1) added. (system_impl.cpp:385)
-[12:57:38|Debug] Discovered 1 component(s) (UUID: 5283920058631409231) (system_impl.cpp:548)
-Segmentation fault: 11
-```
-
-
-:(
 
 ## Debug using XCODE
 - change *binding.gyp* from
