@@ -14,6 +14,11 @@
         "../lib/DronecodeSDK/install/lib/libdronecode_sdk_offboard.dylib",
         "../lib/DronecodeSDK/install/lib/libdronecode_sdk_telemetry.dylib"
       ],
+      "link_settings": {
+        	"libraries": [
+        		"-Wl,-rpath,@loader_path/../../lib/DronecodeSDK/install/lib"
+        	],
+        },
       'cflags!': [ '-fno-exceptions' ],
       'cflags_cc!': [ '-fno-exceptions' ],
       'xcode_settings': {
